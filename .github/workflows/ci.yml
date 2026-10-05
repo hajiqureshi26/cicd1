@@ -9,12 +9,12 @@ jobs:
     build:
       runs-on: ubuntu-latest
 
-      steps: 
+      steps:
           - name: Checkout Code
            uses: action/checkout@v4
 
           - name: Build
            run: echo "Building Application"
 
-          - name: Test 
+          - name: Test
             run: echo "Running tests.."
